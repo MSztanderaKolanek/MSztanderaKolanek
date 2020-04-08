@@ -44,8 +44,6 @@ class List
               size++;
               temporary = temporary -> next;
           }
-          //std::cout<<std::endl;
-          //std::cout<<"Size equals "<<size<<std::endl;
           return size;
       }
       void print()
